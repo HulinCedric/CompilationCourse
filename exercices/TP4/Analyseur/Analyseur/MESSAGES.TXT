@@ -1,0 +1,52 @@
+########## FICHIER DES MESSAGES D'ERREURS ##########
+# SYNTAXE EBNF :                                   #
+# ------------                                     #
+# <fichier> -> { <ligne> }                         #
+# <ligne>   -> '#' <commentaires> |                #
+#              ( <numero> <libelle> )              #
+# REMARQUES :                                      # 
+# ---------                                        #
+# Une ligne commencant par '#' est un commentaire  #
+# Ne pas mettre de `blancs' en debut de ligne      #
+# Ne pas mettre de `blancs' en fin de ligne        #
+# Ne mettre qu'un seul blanc entre <numero> et     #
+# <libelle>                                        #
+# Laisser une ligne vide ou `blanche' a la         #
+# fin du fichier                                   #
+####################################################
+#
+999 ERREUR FATALE : fin du fichier source
+0 ERREUR FATALE : ANALYSE NON IMPLEMENTEE
+1 ERREUR DE SYNTAXE : mot-cle Mulot attendu
+2 ERREUR DE SYNTAXE : mot-cle Tolum attendu
+3 ERREUR DE SYNTAXE : mot-cle Proc ou Fonc attendu
+4 ERREUR DE SYNTAXE : identificateur attendu
+5 ERREUR DE SYNTAXE : '(' attendu
+6 ERREUR DE SYNTAXE : ')' attendu
+7 ERREUR DE SYNTAXE : mot-cle Corp attendu
+8 ERREUR DE SYNTAXE : type int ou Mulot attendu
+9 ERREUR DE SYNTAXE : type int ou Mulot, identificateur ou debut instruction attendus
+10 ERREUR DE SYNTAXE : '=' attendu
+11 ERREUR DE SYNTAXE : 'a' attendu
+12 ERREUR DE SYNTAXE : mot-cle Ruop attendu
+13 ERREUR DE SYNTAXE : mot-cle Tnat attendu
+14 ERREUR DE SYNTAXE : mot-cle Alors attendu
+15 ERREUR DE SYNTAXE : mot-cle Sinon ou Is attendu
+16 ERREUR DE SYNTAXE : mot-cle Is attendu
+17 ERREUR DE SYNTAXE : '(', '!', cst_ent, cst_chaine, ident attendu
+18 ERREUR DE SYNTAXE : '=', '.' ou '(' attendu
+19 ERREUR DE SYNTAXE : mot-cle leve, baisse, tourne ou avance attendu
+20 ERREUR DE SYNTAXE : mot-cle new attendu
+21 ERREUR DE SYNTAXE : ',' attendu
+22 ERREUR DE SYNTAXE : ';' attendu
+23 ERREUR DE SYNTAXE : constante entiere attendue
+24 ERREUR DE SYNTAXE : mot-cle int attendu
+25 ERREUR DE SYNTAXE : mot-cle cnoF attendu
+26 ERREUR DE SYNTAXE : mot-cle return attendu
+27 ERREUR DE SYNTAXE : ';' ou '=' attendus
+28 ERREUR DE SYNTAXE : mot-cle int ou identificateur attendu
+1004 ERREUR SEMANTIQUE : parametre deja defini
+1008 ERREUR DE SEMANTIQUE : nom de procédure deja defini
+1009 ERREUR DE SEMANTIQUE : nom de fonction deja defini
+1010 ERREUR DE SEMANTIQUE : fonction ne retourn rien
+1011 ERREUR DE SEMANTIQUE : nombre de parametre non compatible

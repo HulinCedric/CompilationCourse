@@ -1,0 +1,38 @@
+Mulot TestCarre
+     Proc Carre (int x, int y, int d)
+        Mulot m = new Mulot(x,y,RED);
+        m.tourne(90);
+		m.baisse();
+		int nb=100;
+		Pour int i= 0 a 7
+         	m.avance(nb); m.tourne(-90);
+			m.avance(nb); m.tourne(-90);
+         	m.avance(nb); m.tourne(-90);
+			m.avance(nb); m.tourne(-90);
+			m.leve(); 
+			m.avance(d); m.tourne(-90); m.avance(d);m.tourne(90);
+			m.baisse();
+			nb=nb-12;
+        Ruop
+		m.leve();
+     Corp
+
+     int delta = 6;
+     int y = 10;
+     int jDeb;
+     int j;
+     int x;
+     Pour int i = 1 a 5
+        Si ((i==1)||(i==3)||(i==5))
+		Alors jDeb = 1; x=10;
+		Sinon jDeb = 2; x=110;
+        Is
+        j = jDeb;
+        Tantque (j <= 5) 
+               Carre (x, y, delta);
+               x = x + 200; 
+               j = j + 2;
+        Tnat
+        y = y + 100;
+     Ruop
+Tolum

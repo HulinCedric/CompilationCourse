@@ -1,0 +1,22 @@
+Mulot TestInst
+
+	Proc  proc1 () 
+	Corp
+
+	Fonc fonc1 () = int 
+		int A=0; 
+		return A; 
+	Cnof
+	
+-- Les instructions du programme ...
+	
+	int x;
+	x = 10;
+	int y = x;
+	int z = 100;
+	Mulot leMulot = new Mulot (z,200,RED);
+	leMulot.leve();
+	
+--Dessin (leMulot, 200);
+
+Tolum

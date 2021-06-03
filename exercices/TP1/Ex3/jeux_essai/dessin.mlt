@@ -1,0 +1,17 @@
+Mulot TestDessin
+-- Definition d une procedure 
+Proc Dessin (Mulot m, int cote) 
+m.avance (cote); 
+m.tourne (90);
+m.avance (cote); 
+m.tourne (90); 
+m.avance (cote);
+m.tourne (90); 
+m.avance (cote); 
+m.tourne (90); 
+Corp
+-- Les instructions du programme ...
+int z = 100;
+Mulot leMulot = new Mulot (z,200,RED);
+Dessin (leMulot,200);
+Tolum

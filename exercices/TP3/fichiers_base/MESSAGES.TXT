@@ -1,0 +1,23 @@
+########## FICHIER DES MESSAGES D'ERREURS ##########
+# SYNTAXE EBNF :                                   #
+# ------------                                     #
+# <fichier> -> { <ligne> }                         #
+# <ligne>   -> '#' <commentaires> |                #
+#              ( <numero> <libelle> )              #
+# REMARQUES :                                      # 
+# ---------                                        #
+# Une ligne commencant par '#' est un commentaire  #
+# Ne pas mettre de `blancs' en debut de ligne      #
+# Ne pas mettre de `blancs' en fin de ligne        #
+# Ne mettre qu'un seul blanc entre <numero> et     #
+# <libelle>                                        #
+# Laisser une ligne vide ou `blanche' a la         #
+# fin du fichier                                   #
+####################################################
+#
+999 ERREUR FATALE : fin du fichier source
+0 ERREUR FATALE : ANALYSE NON IMPLEMENTEE
+1 ERREUR DE SYNTAXE : mot-cle Mulot attendu
+2 ERREUR DE SYNTAXE : mot-cle Tolum attendu
+3 ERREUR DE SYNTAXE : mot-cle Proc ou Fonc attendu
+4 ERREUR DE SYNTAXE : identificateur attendu
