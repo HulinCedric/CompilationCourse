@@ -1,0 +1,12 @@
+Mulot TestCercle
+	Mulot m = new Mulot ();
+	m.baisse ();
+	int b = 12 ;
+	int c = 360 / b;
+	Pour int i = 1 a b
+		m.avance (15);
+		m.tourne (c);
+	Ruop
+	m.leve ();
+	m.avance (100);
+Tolum
